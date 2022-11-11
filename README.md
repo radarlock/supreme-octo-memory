@@ -16,10 +16,10 @@ A Proposed Solution (in bullet point form)
 4. Each coin generated from the Genesis block will have the value of 1 Satoshi (BTC) to begin with.
 5. These coin may be combined to generate a hash of the value of the total transaction.
 6. The value may be looked up off a hash table, or quickly computed mathematically.
-7. The following will be transmitted with each transaction attempt: (1) the amount hash, (2) a hash of the user wallet ID, (3) a hash of the combined serial numbers, and (4) any additional requested/required information (e.g., a smart contract). These will be hashed so that only the end user can see what was sent.
+7. The following will be transmitted with each transaction attempt: (1) the amount as a hash, (2) a hash of the user wallet ID, (3) a hash of the combined serial numbers, and (4) any additional requested/required information (e.g., a smart contract). These will be hashed so that only the end user can see what was sent.
 8. The recipient wallet may accept a transaction, reject it, or send it to a miner for validation.
-9. Miners will reverse the hash mathematically and through hash tables to ensure no double-spend (by comparison to coins issued on the Genisis block). If you trust that there was no double-spend you may simply accept the amount, but you assume any risk of a fraudulent double-spend.
-10. Because there is a central repo against which hashed values may be checked, end users can act as the validator, creating the first Peer to Peer solution in crypto.
+9. Miners will reverse the hash mathematically and through hash tables to ensure no double-spend (by comparison to coins issued on the Genisis block and their descedants). If you trust that there was no double-spend you may simply accept the amount, but you assume any risk of a fraudulent double-spend.
+10. Because there is a (de)central repo against which hashed values may be checked, end users can act as the validator, creating the first Peer to Peer solution in crypto.
 11. TX fees will be low, or perhaps not exist (i.e., voluntary).
 
 The TL;DR: Double spend problem solved, Peer 2 Peer crypto created that is compatible at the L1 with Ring Signatures, Smart Contracts and Oracles. A trust system (PoT = Proof of Trust | PoH = Proof of History) largely replaces mining, and loss of trust results in sanctions to the offending wallet. This system is also language agnostic, relying on the wallet to interpret next actions. For example, a wallet written in Angular/Electron could implement a smart contract (which is really just computing power on loan) based on a protocol acceptable to both end users.
