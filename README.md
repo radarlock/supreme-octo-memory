@@ -22,4 +22,4 @@ A Proposed Solution (in bullet point form)
 
 The TL;DR: Double spend problem solved, Peer 2 Peer crypto created that is compatible at the L1 with Ring Signatures, Smart Contracts and Oracles. A trust system (PoT = Proof of Trust | PoH = Proof of History) largely replaces mining, and loss of trust results in sanctions to the offending wallet. This system is also language agnostic, relying on the wallet to interpret next actions.
 
-We have not overlooked that this allows other cryptos to be wrapped by Velocity. Insurance and de-fi should also be possible.
+We have not overlooked that this allows other cryptos to be wrapped by Velocity. Insurance and DE-FI should also be possible.
