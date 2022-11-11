@@ -3,6 +3,7 @@ Velocity L1 White Paper
 
 Peer2Peer Cyrpto (an L1 Solution)
 By RadarLock
+
 radarlock@protonmail.ch
 
 The problem: Too many coins doing too many different things, disjointly. We have Bitcoin (store of value), Ethereum (Smart Contracts), ChainLink (Oracles) and Monero (anonymity). No L1 solution has been proposed to deal with this issue, much less the high fees and slow network times from Proof of Work (PoW) and Proof of State (Pos) methods validation methods.
