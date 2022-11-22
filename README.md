@@ -25,3 +25,6 @@ A Proposed Solution (in bullet point form)
 The TL;DR: Double spend problem solved, Peer 2 Peer crypto created that is compatible at the L1 with Ring Signatures, Smart Contracts and Oracles. A trust system (PoT = Proof of Trust | PoH = Proof of History) largely replaces mining, and loss of trust results in sanctions to the offending wallet. This system is also language agnostic, relying on the wallet to interpret next actions. For example, a wallet written in Angular/Electron could implement a smart contract (which is really just computing power on loan) based on a protocol acceptable to both end users.
 
 We have not overlooked that this allows other cryptos to be wrapped by Velocity as an L2 implementation. Insurance and DE-FI should also be possible at the L2.
+
+***Major Edit***
+Peer2Peer will be made viable by connecting wallets directly together using whatever protocol the wallet author comes up with. Probably will be done using websockets to establish a direct link for the transfer of coins, allowing the end user to verify based on the Gensis Block that everything is Kosher.
