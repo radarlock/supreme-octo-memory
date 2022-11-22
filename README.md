@@ -26,6 +26,5 @@ The TL;DR: Double spend problem solved, Peer 2 Peer crypto created that is compa
 
 We have not overlooked that this allows other cryptos to be wrapped by Velocity as an L2 implementation. Insurance and DE-FI should also be possible at the L2.
 
-
-***Major Edit***
+*Major Edit*
 Peer2Peer will be made viable by connecting wallets directly together using whatever protocol the wallet author comes up with. Probably will be done using websockets to establish a direct link for the transfer of coins, allowing the end user to verify based on the Gensis Block that everything is Kosher.
